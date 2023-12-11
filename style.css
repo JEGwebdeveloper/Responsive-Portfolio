@@ -723,6 +723,8 @@ main{
         position: relative;
         border-radius: 10px;
         overflow: hidden;
+        max-height: 230px;
+        
         
     }
 
