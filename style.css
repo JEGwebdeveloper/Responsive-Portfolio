@@ -43,8 +43,8 @@ header .profile{
 }
 
 header .profile img{
-    height: 150px;
-    width: 150px;
+    height: 220px;
+    width: 180px;
     border-radius: 50%;
     border: 10px solid var(--iconBGColor);
 }
