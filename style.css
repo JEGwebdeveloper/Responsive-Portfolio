@@ -43,10 +43,10 @@ header .profile{
 }
 
 header .profile img{
-    height: 150px;
-    width: 150px;
+    height: 135px;
+    width: 130px;
     border-radius: 50%;
-    border: 10px solid var(--iconBGColor);
+    border: 5px solid var(--iconBGColor);
 }
 
 header .profile h1{
@@ -723,7 +723,7 @@ main{
 #portfolio .port-row .port-item{
     position: relative;
     border-radius: 10px;
-    
+    overflow: hidden;
     height: 100%;
     
     
@@ -743,13 +743,13 @@ main{
     height: 100%;
     width: 100%;
     background-color: var(--themeColor);
-    padding: 0 15px;
+    
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+
     transform: scale(0);
     transition: 0.5s;
     visibility: hidden;
@@ -762,7 +762,7 @@ main{
 }
 
 #portfolio .port-row .port-item .port-info h1{ 
-    color: #ff6767;
+    color: #000000;
     font-family: "poppins", sans-serif ;
     
     font-size: 15px;
